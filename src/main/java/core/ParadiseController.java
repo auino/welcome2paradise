@@ -9,8 +9,7 @@ import exceptions.HellException;
 import exceptions.PurgatoryException;
 
 public class ParadiseController {
-	
-	
+
 	public void checkSoul(Soul s) {
 		Guard saintPeter = Guards.saintPeter.getGuard();
 		try {
@@ -24,4 +23,5 @@ public class ParadiseController {
 			Destinations.hell.take(s);
 		}
 	}
+
 }
