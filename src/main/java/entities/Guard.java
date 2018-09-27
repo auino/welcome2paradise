@@ -9,7 +9,7 @@ public class Guard {
 	}
 	
 	public boolean accept(Soul s) {
-		return false;	
+		return s.isGood();
 	}
 
 	public String getName() {
